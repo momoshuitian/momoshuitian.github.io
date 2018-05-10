@@ -1,0 +1,36 @@
+html {
+    font-size: 10px; /* px 意为“像素（pixels）”: 这个基础字体的尺寸现在是10像素  */
+    font-family: 'Cuprum', sans-serif;
+    background-color:burlywood;
+  }
+  h1,h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  body {
+    width: 640px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color:burlywood;
+    text-shadow: 3px 3px 1px black;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+a:hover,img[src]{
+    color:brown;
+    border:1px solid greenyellow;
+}
